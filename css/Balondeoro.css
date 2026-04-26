@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iran_sans_medi;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+
+
+    
+
+header{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #060606;
+}
+header .titulo {
+    position: relative;
+    font-size: 60px;
+    text-decoration: none;
+    color: rgb(192, 164, 3);
+    font-weight: 800;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style-type: none;
+}
+header ul li a{
+    display: inline-block;
+    color: rgb(192, 164, 3);
+    font-weight: 400;
+    margin-inline-start:20px;
+    margin-inline-end: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.container{
+    margin-top: 10%;
+}
+.card{
+    margin-left: 20%;
+}
+.card-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(192, 164, 3);
+}
+.card-img-top{
+    height: 200px;
+}
+.card-body{
+    background-color:#000;
+}
+
+footer{
+    background-color: rgb(230,230,230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+

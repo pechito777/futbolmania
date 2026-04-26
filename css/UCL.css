@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iran_sans_medi;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 7, 149);
+    z-index: 1000;
+    
+}
+header .titulo {
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+header ul{
+    display: flex;
+}
+header ul li {
+    list-style-type: none;
+}
+header ul li a{
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: #ffd700;
+}
+.ucl{
+    min-height: 100vh;
+    padding-top: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nuevo-formato{
+    color: white;
+    text-align: center;
+    background-color: rgb(6, 6, 72);
+}
+
+.nuevo-formato .container{
+    padding: 80px 20px;
+}
+
+.nuevo-formato h2{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+
+.card-img-top{
+    height: 350px;
+}
+
+
+

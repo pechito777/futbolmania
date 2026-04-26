@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iran_sans_medi;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 211, 111);
+    z-index: 1000;
+    
+}
+header .titulo {
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style-type: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-inline-start:20px;
+    margin-inline-end: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: #010101;
+}
+
+.nuevo-formato{
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+   background-image:url("../imagen/fondo-conference.webp") ;
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 120px;
+}
+
+
+.nuevo-formato h1{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.nuevo-formato h2{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.card{
+    margin-left: 60%;
+    margin-top: 6%;
+}
+.card-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+.card-body{
+    background-color:rgb(14, 204, 80);
+}

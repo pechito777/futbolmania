@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iran_sans_medi;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 7, 149);   
+}
+header .titulo {
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+
+header ul{
+    display: flex;
+}
+header ul li {
+    list-style-type: none;
+}
+header ul li a{
+    color: #fff;
+    margin: 0 15px;
+    font-size: 18px;
+    text-decoration: none;
+}
+header ul li a:hover {
+    color: #ffd700;
+}
+.ucl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   height: 100vh;
+
+    background-image:url("../imagen/uefa-champions-league-adidas-balon-21-22.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.content{
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2{
+    color:#fff;
+    font-size: 4em;
+    line-height: 1.7em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content .textBox h2 span{
+    font-size: 2em;
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #fff;
+    color: #111;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}

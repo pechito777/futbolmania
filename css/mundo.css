@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: iran_sans_medi;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+header{
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 7, 149);  
+    z-index: 1000;
+}
+
+header .titulo {
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a{
+    color: #fff;
+    margin: 0 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: #ffd700;
+}
+
+
+.container {
+    max-width: 1000px;
+    padding: 40px;
+    margin-top: 120px; 
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+
+.carousel-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-item img{
+    width: 60%; 
+    max-height: 400px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.carousel-item ul{
+    margin-top: 15px;
+}
+
+.carousel-item ul li{
+    margin-left: 0;
+    list-style-position: inside;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); 
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
