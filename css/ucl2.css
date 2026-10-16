@@ -55,7 +55,7 @@ header ul li a:hover {
     color: white;
     text-align: center;
     min-height: 100vh;
-   background-image:url("../imagen/estadio1.webp") ;
+   background-image:url("../image/estadio1.webp") ;
    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
